@@ -55,7 +55,7 @@ def ResulT():
     try:
         global Result
         if Noone == True:
-            Result = complex(round(eval("".join(Quantity)), 2))
+            Result = float(round(eval("".join(Quantity)), 2))
             Quantity.clear()
             Quantity.append(str(Result))
         else:
@@ -150,7 +150,7 @@ def draw_button_special(form, posX, posY, width, height):
         if event.type == pygame.MOUSEBUTTONDOWN:
             if posX <= mouse_posX <= posX + width and posY <= mouse_posY <= posY + height:
                 try:
-                    Result = complex(round(math.log(eval("".join(Quantity)), 10), 2))
+                    Result = float(round(math.log(eval("".join(Quantity)), 10), 2))
                     Result = str(Result)
                     Quantity.clear()
                     Quantity.append(Result)
@@ -170,7 +170,7 @@ def draw_button_special(form, posX, posY, width, height):
         if event.type == pygame.MOUSEBUTTONDOWN:
             if posX <= mouse_posX <= posX + width and posY <= mouse_posY <= posY + height:
                 try:
-                    Result = complex(round(math.sqrt(eval("".join(Quantity))), 2))
+                    Result = float(round(math.sqrt(eval("".join(Quantity))), 2))
                     Result = str(Result)
                     Quantity.clear()
                     Quantity.append(Result)
