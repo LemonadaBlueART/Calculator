@@ -4,6 +4,10 @@ Obs.: Feito com o mínimo possível de chatgpt (99% lógica, 1% gpt);
 
 Projeto de colégio.
 
+# Bibliotecas
+Pygame.
+Math.
+
 # Arquivo completo no drive:
 Calculator: https://drive.google.com/file/d/1TuUtxEZa7EWwvWctlD8WEpJgmFwLO9Q-/view?usp=sharing
 
