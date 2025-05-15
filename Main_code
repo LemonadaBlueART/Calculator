@@ -2,7 +2,6 @@ import pygame
 from pygame.locals import *
 import math
 
-# salvo a pátria: print(eval(string))
 Icon = pygame.image.load('Image/4341087.png')
 
 pygame.init()
